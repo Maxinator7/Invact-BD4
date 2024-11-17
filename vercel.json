@@ -6,11 +6,6 @@
       "use": "@vercel/node"
     }
   ],
-  "functions": {
-    "index.js": {
-      "includeFiles": "BD4EXCERCISE/database.sqlite" 
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
