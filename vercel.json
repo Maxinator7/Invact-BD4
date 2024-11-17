@@ -8,7 +8,7 @@
   ],
   "functions": {
     "index.js": {
-      "includeFiles": ["BD4EXCERCISE/database.sqlite"] 
+      "includeFiles": "BD4EXCERCISE/database.sqlite" 
     }
   },
   "rewrites": [
