@@ -1,4 +1,3 @@
-require("./BD4EXCERCISE/initDB");
 const express = require("express");
 const { resolve } = require("path");
 let cors = require("cors");
