@@ -38,7 +38,7 @@ app.get("/restaurants", async (req, res) => {
   try {
     let result = await getAllRestaurants();
 
-    if ((result.restaurants.lenght = h == 0)) {
+    if ((result.restaurants.lenghth === 0)) {
       return res.status(404).json({ message: "No restaurants found!" });
     }
     return res.status(200).json(result);
